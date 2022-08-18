@@ -4,36 +4,37 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: blueviolet;
-}
-
 .container {
+    display: flex;
     max-width: 75em;
-    border: 1px solid black;
-    background-color: white;
 
 }
 
 .container-grid {
     max-width: 75em;
-    background-color: #10A0E6;
     margin: 0 auto;
 }
 
-.login-holder{
+main {
+    background: linear-gradient(rgba(74, 183, 236, 0.95), rgba(255, 255, 255, 0), rgba(74, 183, 236, 0.67));
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.login-holder {
+    background-color: white;
+    width: 1190px;
 }
 
 .container .login-casca {
+    width: 1200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 630px;
     border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -55,7 +56,7 @@ body {
     align-items: center;
 }
 
-.indice-login h2{
+.indice-login h2 {
     text-transform: uppercase;
     /* border-left: 2px dotted limegreen; */
     margin-top: 6px;
@@ -80,7 +81,7 @@ body {
     align-items: center;
 }
 
-.separador{
+.separador {
     min-height: 460px;
     border-right: 2px solid;
 }
@@ -94,7 +95,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
-.former-login h2{
+
+.former-login h2 {
     text-transform: uppercase;
     text-align: center;
 }
@@ -136,7 +138,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   
+
 }
 
 
@@ -145,17 +147,17 @@ body {
     text-align: center;
 }
 
-.former-cadastro div{
+.former-cadastro div {
     align-self: center;
 }
 
-.former-cadastro input{
+.former-cadastro input {
     min-height: 46px;
     min-width: 460px;
     align-self: center;
 }
 
-.former-cadastro button{
+.former-cadastro button {
     min-height: 46px;
     min-width: 460px;
     align-self: center;
