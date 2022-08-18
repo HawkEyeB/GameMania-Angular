@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.container-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.showNavbar {
+    top: 11% !important;
+    right: 2% !important;
+    opacity: 0.95 !important;
+}
+
+
+.category {
+    background-color: rgba(16, 160, 230, 0.7);
+}
+
+.category .category-box {
+    background-color: rgb(0, 170, 255);
+    padding: 3px;
+    height: auto;
+}
+
+.category-box .color-category {
+    width: auto;
+    height: auto;
+    background-color: white;
+
+}
+
+.color-category div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.link-special {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-color: white;
+    color: black;
+    width: auto;
+    padding-left: 10px;
+
+
+}
+
+.link-special .category-description {
+    float: right;
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    font-weight: normal;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.category-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border-right: 1px solid;
+    background-color: white;
+    color: black;
+    width: auto;
+
+}
+
+.category-link .category-description {
+    float: right;
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: normal;
+
+}
+
+
+/* .category-description:hover { 
+    border-left: 2px dotted black;
+    padding: 7px;
+    transition: .5s;
+  } */
+
+
+@media screen and (max-width: 991px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container-grid {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .container {
+        max-width: 738px;
+    }
+
+    /* Navbar Hamburguer */
+    .category-box {
+        background-color: white;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        top: 0;
+        right: -80%;
+
+    }
+
+    .category-box .color-category {
+        background-color: white;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        top: 0;
+        left: -80%;
+
+    }
+
+    .color-category div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5px;
+    }
+
+    .link-special {
+        flex-direction: row-reverse;
+        height: auto;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        background-color: white;
+        color: black;
+        padding-left: 10px;
+        border-bottom: 3px dotted red;
+        justify-content: flex-start;
+        padding-right: 5px;
+        width: 100%;
+
+    }
+
+    .link-special .category-description {
+        float: right;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 27px;
+        color: black;
+        font-weight: normal;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .category-link {
+        flex-direction: row-reverse;
+        height: auto;
+        border-right: 1px solid;
+        background-color: white;
+        color: black;
+        border-bottom: 3px dotted red;
+        justify-content: flex-start;
+        width: 100%;
+        padding-right: 5px;
+
+    }
+
+    .category-link .category-description {
+        float: right;
+        text-align: center;
+        font-size: 27px;
+        color: black;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: normal;
+
+    }
+
+    .category-link p {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #busca-bar::placeholder {
+        font-size: 20px;
+    }
+
+    .container {
+        max-width: 375px;
+    }
+
+    .container-grid {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    /* Hamburguer  */
+    .category-box {
+        background-color: white;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        top: 0;
+        left: -80%;
+    }
+
+    .category-box .color-category {
+        background-color: white;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        top: 0;
+        left: -80%;
+
+
+    }
+
+    .color-category div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5px;
+
+    }
+
+    .link-special {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        height: auto;
+        background-color: white;
+        color: black;
+        border-bottom: 3px dotted red;
+        justify-content: flex-start;
+
+    }
+
+    .link-special .category-description {
+        float: right;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 15px;
+        color: black;
+        font-weight: normal;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .category-link {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        height: auto;
+        background-color: white;
+        color: black;
+        border-bottom: 3px dotted red;
+        justify-content: flex-start;
+        width: 100%;
+        padding-right: 5px;
+
+    }
+
+    .category-link .category-description {
+        float: right;
+        text-align: center;
+        font-size: 15px;
+        color: black;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: normal;
+
+    }
+
+    .category-link p {
+        padding-top: 15px;
+    }
+
+    .link-special i {
+        font-size: 30px;
+    }
+
+    .category-link i {
+        font-size: 30px;
+    }
+}

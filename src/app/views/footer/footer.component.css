@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.container-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+footer {
+    background: linear-gradient(rgba(74, 183, 236, 0.67), rgba(0, 75, 112, 1));
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+
+}
+
+.rodape .rodape-box {
+    max-width: 1100px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape-list {
+    list-style-type: none;
+    text-align: start;
+    line-height: 300%;
+
+}
+
+.atendimento ul {
+    width: 350px;
+    text-align: start;
+    line-height: 200%;
+}
+
+.atendimento p {
+    color: black;
+}
+
+
+.rodape-social {
+    list-style-type: none;
+    text-align: start;
+    line-height: 300%;
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+.rodape-titulo {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+
+.rodape-text:hover {
+    background-color: gray;
+}
+
+.rodape-text {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.rodape-social .rodape-link {
+    display: inline-flex;
+    justify-content: start;
+    align-items: flex-start;
+    height: auto;
+    color: black;
+    width: auto;
+}
+
+.rodape-social .rodape-description {
+    float: right;
+    word-break: normal;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+@media screen and (max-width: 991px) {
+    .rodape {
+        height: auto;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .rodape .rodape-box {
+        height: 500px;
+        max-width: 736px;
+        width: 736px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .institucional {
+        padding-left: 10px;
+    }
+
+    .conta {
+        padding-left: 10px;
+    }
+
+    .rodape-list {
+        list-style-type: none;
+        text-align: start;
+        line-height: 300%;
+        word-wrap: break-word;
+
+
+    }
+
+    .atendimento {
+        padding-top: 7px;
+        padding-right: 30px;
+    }
+
+    .atendimento ul {
+        width: 200px;
+        text-align: start;
+        line-height: 200%;
+    }
+
+    .rede-social {
+        justify-content: center;
+        padding-right: 40px;
+
+    }
+
+    .rodape-social {
+        list-style-type: none;
+        text-align: center;
+        line-height: 200%;
+        max-width: 200px;
+        max-height: 250px;
+        align-self: center;
+
+    }
+
+    .rodape-titulo {
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+    .rodape-text:hover {
+        background-color: gray;
+    }
+
+    .rodape-text {
+        text-decoration: none;
+        color: black;
+    }
+
+    .rodape-social .rodape-link {
+        display: inline-flex;
+        justify-content: start;
+        align-items: flex-start;
+        height: auto;
+        color: black;
+        font-weight: bolder;
+        width: auto;
+    }
+
+    .rodape-social .rodape-description {
+        display: none;
+
+
+    }
+}
+
+
+@media screen and (max-width: 766px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #busca-bar::placeholder {
+        font-size: 20px;
+    }
+
+    .container {
+        max-width: 375px;
+    }
+
+    .container-grid {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .rodape {
+        background: linear-gradient(rgba(21, 101, 192, 0.4), rgba(21, 101, 192, 0));
+        height: auto;
+        width: 100%;
+        display: flex;
+        border: 0px;
+
+    }
+
+    .rodape .rodape-box {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .institucional {
+        padding: 0;
+    }
+
+    .conta {
+        padding: 0
+    }
+
+
+    .box {
+        display: flex;
+        justify-content: start;
+        align-items: flex;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+
+    .rodape-list {
+        list-style-type: none;
+        text-align: start;
+        line-height: 300%;
+        word-wrap: break-word;
+
+    }
+
+    .atendimento ul {
+        width: 200px;
+        text-align: start;
+        line-height: 200%;
+    }
+
+    .atendimento p {
+        display: none;
+    }
+
+
+    .rede-social {
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    .rodape-social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        width: 100%;
+        height: 100%;
+        border: 0px;
+
+    }
+
+    .rodape-titulo {
+        text-transform: capitalize;
+        color: black;
+        padding-left: 20px;
+    }
+
+
+    .rodape-text:hover {
+        background-color: gray;
+    }
+
+    .rodape-text {
+        display: none;
+        text-decoration: none;
+        color: black;
+    }
+
+    .rodape-social .rodape-link {
+        display: inline-flex;
+        justify-content: start;
+        align-items: flex-start;
+        height: auto;
+        color: black;
+        width: auto;
+    }
+
+    .rodape-social .rodape-description {
+        display: none;
+
+
+    }
+}

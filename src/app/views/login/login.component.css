@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    max-width: 75em;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.container-grid {
+    max-width: 75em;
+    background-color: #10A0E6;
+    margin: 0 auto;
+}
+
+.login-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container .login-casca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 630px;
+    border: 1px solid black;
+
+}
+
+.container .login-box {
+    min-height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-box .indice-login {
+    padding-top: 20px;
+    min-width: 1160px;
+    min-height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.indice-login h2{
+    text-transform: uppercase;
+    /* border-left: 2px dotted limegreen; */
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+
+.login-box .information-holder {
+    display: flex;
+    min-height: 455px;
+    min-width: 1168px;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-block {
+    padding-top: 40px;
+    min-width: 1010px;
+    min-height: 455px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.separador{
+    min-height: 460px;
+    border-right: 2px solid;
+}
+
+.former-login {
+    max-width: 472px;
+    min-width: 472px;
+    min-height: 455px;
+    max-height: 455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.former-login h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.former-login div {
+    align-self: center;
+}
+
+.former-login div input {
+    min-height: 46px;
+    min-width: 460px;
+    align-self: center;
+}
+
+.former-login div button {
+    min-height: 46px;
+    min-width: 460px;
+    align-self: center;
+}
+
+.former-login .links-login {
+    display: flex;
+    min-width: 460px;
+    justify-content: space-evenly;
+}
+
+.former-login .links-login a {
+    text-decoration: none;
+    color: #10A0E6;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+.former-cadastro {
+    max-width: 472px;
+    min-width: 472px;
+    min-height: 455px;
+    max-height: 455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+
+
+.former-cadastro h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.former-cadastro div{
+    align-self: center;
+}
+
+.former-cadastro input{
+    min-height: 46px;
+    min-width: 460px;
+    align-self: center;
+}
+
+.former-cadastro button{
+    min-height: 46px;
+    min-width: 460px;
+    align-self: center;
+}
