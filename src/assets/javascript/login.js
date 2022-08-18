@@ -1,22 +1,22 @@
 // Carrega o jquery quando a página estiver disponível
 
-$(document).ready(function () {
-    // alert('Hello World');
+// $(document).ready(function () {
+//     // alert('Hello World');
 
-    $(".button-entrar").click(function () {
-        validarFormJQuery();
-    })
-})
+//     $(".button-entrar").click(function () {
+//         validarFormJQuery();
+//     })
+// })
 
-function validarFormJQuery() {
-    let usuario = $("#usuario").val();
-    let senha = $("#senha").val();
-    if (usuario.trim() == '' || senha.trim() == '') {
-        $("#msgValidacao").text("Preencher todos os campos!")
-    } else {
-        $("#msgValidacao").html('Dados Validados!!');
-    }
-}
+// function validarFormJQuery() {
+//     let usuario = $("#usuario").val();
+//     let senha = $("#senha").val();
+//     if (usuario.trim() == '' || senha.trim() == '') {
+//         $("#msgValidacao").text("Preencher todos os campos!")
+//     } else {
+//         $("#msgValidacao").html('Dados Validados!!');
+//     }
+// }
 
 
 // Função com Java Script

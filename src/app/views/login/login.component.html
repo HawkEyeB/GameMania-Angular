@@ -8,17 +8,20 @@
                 </div>
                 <div class="information-holder">
                     <div class="information-block">
-                        <form class="former-login" action="">
+                        <form class="former-login" action="" (ngSubmit)="fazerLogin()">
                             <h2> ja tenho cadastro</h2>
                             <div>
-                                <input type="text" id="usuario" placeholder="E-mail,CPF ou CNPJ*" >
+                                <input type="text" id="usuario" name="usuario" placeholder="E-mail,CPF ou CNPJ*"
+                                    [(ngModel)]="userModel.usuario">
                             </div>
                             <div>
-                                <input type="password" id="senha" name="senha" placeholder="Senha*">
+                                <input type="password" id="senha" name="senha" placeholder="Senha*"
+                                    [(ngModel)]="userModel.senha">
                             </div>
                             <p id="msgValidacao"></p>
-                            <div><button type="button" class="button-entrar">
+                            <div><button type="submit" class="button-entrar">
                                     Entrar</button> </div>
+                            <!-- <button type="button" (click)="helloWorld()"> Teste </button> -->
 
 
                             <div class="links-login">
@@ -30,6 +33,7 @@
                                 </div>
                             </div>
                         </form>
+                        
 
                         <div class="separador">
 
